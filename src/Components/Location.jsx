@@ -21,36 +21,35 @@ const Location = ({ locationInfo, setLocationInfo }) => {
   return (
     <section className='
       text-white 
-      bg-[url(/public/backgroundHeader.png)] 
+      bg-[url(/src/media/backgroundHeader.png)] 
       bg-cover bg-center 
       items-center font-fira-code
       h-[90vh]
       lg:w-[100%]
       md:h-[90vh]
-      sm:h-[90vh]
       max-sm:w-[700px]
-      max-sm:h-[600px]'
+      '
       
     >
 
-      <div className='max-sm:h-[360px] lg:h-[345px] lg:w-[370px] md:w-[370px] mx-auto relative top-[-15%]'>
+      <div className='max-sm:h-[360px] lg:h-[360px] lg:w-[370px] md:w-[370px] mx-auto relative top-[-15%]'>
         <img 
-          className='h-[330px] w-[350px] mx-auto rounded-full rotating-image' 
-          src='/public/portal.png' alt='' 
+          className='h-[360px] w-[350px] mx-auto rounded-full rotating-image' 
+          src='/src/media/portal.png' alt='' 
         />
 
         <div className=' h-[250px] w-[300px] absolute top-28 left-20 max-sm:mx-auto max-sm:top-[40%] max-sm:left-[200px]'>
 
           <img 
             className='max-sm:w-[300px] max-sm:mx-auto h-[100px] w-[200px]'
-            src='/public/phrase.png' alt=''
+            src='/src/media/phrase.png' alt=''
 
           />
         </div>
 
       </div>
       
-      <form onSubmit={handleSubmit} className='max-sm:w-[450px] md:w-[60%]  lg:w-[36%] mx-auto mt-[-2%] rounded-sm border-green-700 border-2'>
+      <form onSubmit={handleSubmit} className='max-sm:w-[80%] md:w-[60%]  lg:w-[36%] mx-auto mt-[-2%] rounded-sm border-green-700 border-2'>
 
 
 
@@ -78,7 +77,7 @@ const Location = ({ locationInfo, setLocationInfo }) => {
         </div>
       </form>
 
-      <article className='max-sm:w-[450px] grid gap-9 mx-auto lg:w-[50%] h-[20%] bg-transparent border-2 border-green-700 mt-[40px]'>
+      <article className='max-sm:w-[90%] grid gap-9 mx-auto lg:w-[50%] h-[20%] bg-transparent border-2 border-green-700 mt-[40px]'>
         
         <h2 className='flex justify-center mt-7 text-green-700'>¡Wellcome to {locationInfo?.name}!</h2>
 

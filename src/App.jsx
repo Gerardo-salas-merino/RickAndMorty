@@ -26,7 +26,7 @@ function App() {
 
 
   return (
-    <main>
+    <main className="h-auto">
 
       <Location locationInfo={locationInfo} setLocationInfo={setLocationInfo}/>
       <ResidentsList residents={locationInfo?.residents ?? []}/>

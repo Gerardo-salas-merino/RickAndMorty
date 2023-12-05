@@ -21,7 +21,7 @@ const ResidentCard = ({ residentURL }) => {
     }, [])
     
     return (
-        <article>
+        <article className='lg:h-auto'>
             <header className='relative border-t-2 border-l-2 border-r-2 border-green-700'>
                 <img src={residenInfo?.image} alt='' />
 
@@ -36,9 +36,9 @@ const ResidentCard = ({ residentURL }) => {
             <section className='border-2 border-green-700 font-fira-code'>
                 <h5 className='flex justify-center text-xl font-bold mt-2'>{residenInfo?.name}</h5><hr className=' border-sky-950'/>
                 
-                <ul className='mt-4 h-24'>
+                <ul className='mt-4 lg:h-auto'>
                     <li className='flex gap-10'>
-                        <span className='bg-black'>species:</span>
+                        <span className=''>species:</span>
                         {residenInfo?.species}
                     </li>
 

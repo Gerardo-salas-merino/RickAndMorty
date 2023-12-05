@@ -23,7 +23,7 @@ const ResidentsList = ({ residents }) => {
   }, [residents])
 
   return (
-    <section className="max-sm:w-[700px] mx-auto bg-[url(/public/background.png)] text-white sm:w-[100%]">
+    <section className="max-sm:h-[100%] min-h-screen max-sm:w-[700px] mx-auto bg-[url(/src/media/backgroundpage.png)] text-white sm:w-[100%]">
 
       <section 
         className=
