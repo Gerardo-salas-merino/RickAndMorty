@@ -21,7 +21,7 @@ const Location = ({ locationInfo, setLocationInfo }) => {
   return (
     <section className='
       text-white 
-      bg-[url(/src/media/backgroundHeader.png)] 
+      bg-[url(/public/media/backgroundHeader.png)] 
       bg-cover bg-center 
       items-center font-fira-code
       h-[90vh]
@@ -35,14 +35,14 @@ const Location = ({ locationInfo, setLocationInfo }) => {
       <div className='max-sm:h-[360px] lg:h-[360px] lg:w-[370px] md:w-[370px] mx-auto relative top-[-15%]'>
         <img 
           className='h-[360px] w-[350px] mx-auto rounded-full rotating-image' 
-          src='src/media/portal.png' alt=''  
+          src='/public/media/portal.png' alt=''  
         />
 
         <div className=' h-[250px] w-[300px] absolute top-28 left-20 max-sm:mx-auto max-sm:top-[40%] max-sm:left-[200px]'>
 
           <img 
             className='max-sm:w-[300px] max-sm:mx-auto h-[100px] w-[200px]'
-            src='src/media/phrase.png' alt=''
+            src='/public/media/phrase.png' alt=''
 
           />
         </div>
