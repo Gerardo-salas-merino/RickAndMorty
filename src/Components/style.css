@@ -1,0 +1,14 @@
+/* style.css */
+
+.rotating-image {
+    animation: spin 14s infinite linear; /* Rotación infinita */
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
