@@ -49,7 +49,7 @@ const Location = ({ locationInfo, setLocationInfo }) => {
 
       </div>
       
-      <form onSubmit={handleSubmit} className='max-sm:w-[80%] md:w-[60%]  lg:w-[36%] mx-auto mt-[-2%] rounded-sm border-green-700 border-2'>
+      <form onSubmit={handleSubmit} className='max-sm:w-[60%] md:w-[60%]  lg:w-[36%] mx-auto mt-[-2%] rounded-sm border-green-700 border-2'>
 
 
 
